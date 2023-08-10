@@ -1,0 +1,18 @@
+fun main(){
+println("Digite uma idade")
+
+val idade = readLine()?. toDoubleOrNull()
+
+ if ( idade != null){
+   if ( idade > 18){
+  println ("maior de idade")
+  
+  }else if ( idade < 18){
+    println ("menor de idade")
+  
+  }else{ 
+  
+  
+    println ( "Entrada Inválida. Digite valor valido")}
+  }
+}
