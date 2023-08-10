@@ -1,0 +1,15 @@
+fun main(){
+    println("digite um número")
+    val numero = readLine()?. toIntOrNull()
+    
+    if (numero != null){
+    
+      if (numero % 2 == 0){
+          println ("O numero é par.")
+        }else{
+          println ("O numero é impar.")
+         }
+    } 
+    else{
+        println ("V1alor Inválido. Digite um número valido")}
+     }   
