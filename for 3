@@ -1,0 +1,6 @@
+fun main (){
+
+for (numero in 2022..2070 step 4) {
+println(numero)
+}
+}
