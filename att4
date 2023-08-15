@@ -1,0 +1,16 @@
+fun main(){
+ 
+  println("digite um numero inteiro:")
+  val numero = readLine()?.toIntOrNull()
+  
+  
+  if(numero != null){
+    println("Tabuada do numero $numero")
+    for (i in 0..100){
+     val resultado = numero *i
+     println("$numero x $i= $resultado")
+     }
+     }else{
+     println("numero invalido.Digite um numero inteiro valido")
+     }
+ }
