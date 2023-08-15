@@ -1,0 +1,20 @@
+fun main(){
+ 
+  println("Digite um numero inteiro")
+  val numero =readLine()?.toIntOrNull()
+  
+   if(numero != null){
+    println("Divisores do numero $numero:")
+    
+    var divisor = 1
+    while(divisor<= numero){
+     if (numero % divisor == 0){
+     println(divisor)
+     }
+     divisor++
+     }
+     }else{
+       println ("Número inválido. Digite um número inteiro valido")
+       }
+  
+  }
